@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Sra-RK-VUu">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mcs-4s-R72">
+            <objects>
+                <viewController id="Sra-RK-VUu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TTn-jh-93v"/>
+                        <viewControllerLayoutGuide type="bottom" id="gOy-Up-A06"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H5n-2Q-vvY">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GA7-VM-JhA">
+                                <rect key="frame" x="20" y="20" width="350" height="476"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.19215688110000001" green="0.82745105029999999" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sul-9X-8qa">
+                                <rect key="frame" x="398" y="20" width="350" height="476"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pya-46-xPV">
+                                <rect key="frame" x="20" y="504" width="728" height="500"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sul-9X-8qa" firstAttribute="width" secondItem="GA7-VM-JhA" secondAttribute="width" id="1co-A6-XnF"/>
+                            <constraint firstItem="Pya-46-xPV" firstAttribute="leading" secondItem="H5n-2Q-vvY" secondAttribute="leading" constant="20" id="3bX-bv-EsM"/>
+                            <constraint firstItem="sul-9X-8qa" firstAttribute="top" secondItem="GA7-VM-JhA" secondAttribute="top" id="73J-vi-S1n"/>
+                            <constraint firstItem="GA7-VM-JhA" firstAttribute="leading" secondItem="H5n-2Q-vvY" secondAttribute="leading" constant="20" id="AVM-HF-foa"/>
+                            <constraint firstItem="GA7-VM-JhA" firstAttribute="top" secondItem="H5n-2Q-vvY" secondAttribute="top" constant="20" id="Bfe-br-meZ"/>
+                            <constraint firstAttribute="bottom" secondItem="sul-9X-8qa" secondAttribute="bottom" constant="528" id="CKD-N8-ifF"/>
+                            <constraint firstAttribute="trailing" secondItem="sul-9X-8qa" secondAttribute="trailing" constant="20" id="Gh9-D4-iQh"/>
+                            <constraint firstItem="sul-9X-8qa" firstAttribute="bottom" secondItem="GA7-VM-JhA" secondAttribute="bottom" id="cbH-NJ-M4g"/>
+                            <constraint firstItem="sul-9X-8qa" firstAttribute="leading" secondItem="GA7-VM-JhA" secondAttribute="trailing" constant="28" id="kBn-zh-0i9"/>
+                            <constraint firstItem="sul-9X-8qa" firstAttribute="trailing" secondItem="Pya-46-xPV" secondAttribute="trailing" id="str-Nx-Tem"/>
+                            <constraint firstAttribute="bottom" secondItem="Pya-46-xPV" secondAttribute="bottom" constant="20" id="tPu-6T-A3p"/>
+                            <constraint firstItem="Pya-46-xPV" firstAttribute="top" secondItem="sul-9X-8qa" secondAttribute="bottom" constant="8" id="zN4-yD-G97"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6V-N1-kbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="-57"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

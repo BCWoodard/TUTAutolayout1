@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC8E8291860E362005FDC91 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC8E8281860E362005FDC91 /* Main_iPad.storyboard */; };
 		4AF32A37185FC57600DCDAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A36185FC57600DCDAAA /* Foundation.framework */; };
 		4AF32A39185FC57600DCDAAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A38185FC57600DCDAAA /* CoreGraphics.framework */; };
 		4AF32A3B185FC57600DCDAAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A3A185FC57600DCDAAA /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		4AF32A58185FC57600DCDAAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A3A185FC57600DCDAAA /* UIKit.framework */; };
 		4AF32A60185FC57600DCDAAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF32A5E185FC57600DCDAAA /* InfoPlist.strings */; };
 		4AF32A62185FC57600DCDAAA /* TUTAutolayout1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF32A61185FC57600DCDAAA /* TUTAutolayout1Tests.m */; };
+		4AF32A6D185FD03F00DCDAAA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF32A6B185FD03F00DCDAAA /* icon.png */; };
+		4AF32A6E185FD03F00DCDAAA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF32A6C185FD03F00DCDAAA /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AC8E8281860E362005FDC91 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = ../Main_iPad.storyboard; sourceTree = "<group>"; };
 		4AF32A33185FC57600DCDAAA /* TUTAutolayout1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUTAutolayout1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF32A36185FC57600DCDAAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AF32A38185FC57600DCDAAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		4AF32A5D185FC57600DCDAAA /* TUTAutolayout1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TUTAutolayout1Tests-Info.plist"; sourceTree = "<group>"; };
 		4AF32A5F185FC57600DCDAAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AF32A61185FC57600DCDAAA /* TUTAutolayout1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUTAutolayout1Tests.m; sourceTree = "<group>"; };
+		4AF32A6B185FD03F00DCDAAA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4AF32A6C185FD03F00DCDAAA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +121,11 @@
 				4AF32A45185FC57600DCDAAA /* TUTAppDelegate.h */,
 				4AF32A46185FC57600DCDAAA /* TUTAppDelegate.m */,
 				4AF32A48185FC57600DCDAAA /* Main.storyboard */,
+				4AC8E8281860E362005FDC91 /* Main_iPad.storyboard */,
 				4AF32A4B185FC57600DCDAAA /* TUTViewController.h */,
 				4AF32A4C185FC57600DCDAAA /* TUTViewController.m */,
 				4AF32A4E185FC57600DCDAAA /* Images.xcassets */,
+				4AF32A6F185FD04400DCDAAA /* Images */,
 				4AF32A3D185FC57600DCDAAA /* Supporting Files */,
 			);
 			path = TUTAutolayout1;
@@ -150,6 +158,15 @@
 				4AF32A5E185FC57600DCDAAA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF32A6F185FD04400DCDAAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AF32A6B185FD03F00DCDAAA /* icon.png */,
+				4AF32A6C185FD03F00DCDAAA /* icon@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF32A6D185FD03F00DCDAAA /* icon.png in Resources */,
 				4AF32A4F185FC57600DCDAAA /* Images.xcassets in Resources */,
 				4AF32A41185FC57600DCDAAA /* InfoPlist.strings in Resources */,
+				4AC8E8291860E362005FDC91 /* Main_iPad.storyboard in Resources */,
 				4AF32A4A185FC57600DCDAAA /* Main.storyboard in Resources */,
+				4AF32A6E185FD03F00DCDAAA /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +481,7 @@
 				4AF32A67185FC57600DCDAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AF32A68185FC57600DCDAAA /* Build configuration list for PBXNativeTarget "TUTAutolayout1Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +490,7 @@
 				4AF32A6A185FC57600DCDAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
