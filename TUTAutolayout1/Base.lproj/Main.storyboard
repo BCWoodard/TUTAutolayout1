@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="TUTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hhj-vg-AW6"/>
+                        <viewControllerLayoutGuide type="bottom" id="UfL-2K-pfF"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J4Q-3g-Ogm">
+                                <rect key="frame" x="20" y="20" width="130" height="254"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215688110000001" green="0.82745105029999999" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v47-4f-l4X">
+                                <rect key="frame" x="20" y="294" width="280" height="254"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVV-Sh-5OG">
+                                <rect key="frame" x="170" y="20" width="130" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J4Q-3g-Ogm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="435-h4-0eB"/>
+                            <constraint firstItem="v47-4f-l4X" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="6ob-s3-Gpt"/>
+                            <constraint firstAttribute="bottom" secondItem="v47-4f-l4X" secondAttribute="bottom" constant="19.999999605764629" id="EIX-jX-CSS"/>
+                            <constraint firstAttribute="trailing" secondItem="v47-4f-l4X" secondAttribute="trailing" constant="19.999999816601076" id="Fqj-Is-5qP"/>
+                            <constraint firstItem="kVV-Sh-5OG" firstAttribute="leading" secondItem="J4Q-3g-Ogm" secondAttribute="trailing" constant="20" id="OhM-h7-upO"/>
+                            <constraint firstItem="kVV-Sh-5OG" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="PL5-se-Oyv"/>
+                            <constraint firstItem="v47-4f-l4X" firstAttribute="top" secondItem="J4Q-3g-Ogm" secondAttribute="bottom" constant="20" id="Sxb-Th-wsk"/>
+                            <constraint firstItem="v47-4f-l4X" firstAttribute="height" secondItem="kVV-Sh-5OG" secondAttribute="height" id="TE8-vG-lve"/>
+                            <constraint firstItem="v47-4f-l4X" firstAttribute="height" secondItem="J4Q-3g-Ogm" secondAttribute="height" id="TZ0-LL-xu3"/>
+                            <constraint firstItem="J4Q-3g-Ogm" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="VZ6-va-UBY"/>
+                            <constraint firstItem="J4Q-3g-Ogm" firstAttribute="width" secondItem="kVV-Sh-5OG" secondAttribute="width" id="WOC-tj-AiJ"/>
+                            <constraint firstAttribute="trailing" secondItem="kVV-Sh-5OG" secondAttribute="trailing" constant="20" id="ec8-MY-bPm"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomView" destination="v47-4f-l4X" id="yR9-0U-Cdu"/>
+                        <outlet property="topLeftView" destination="J4Q-3g-Ogm" id="xBk-eD-nT3"/>
+                        <outlet property="topRightView" destination="kVV-Sh-5OG" id="YL3-af-pw4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="87" y="195"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
