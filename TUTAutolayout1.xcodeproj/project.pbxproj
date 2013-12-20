@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AD14F911864D9C3001F8A13 /* TutorialInfo in Resources */ = {isa = PBXBuildFile; fileRef = 4AD14F901864D9C3001F8A13 /* TutorialInfo */; };
 		4AF32A37185FC57600DCDAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A36185FC57600DCDAAA /* Foundation.framework */; };
 		4AF32A39185FC57600DCDAAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A38185FC57600DCDAAA /* CoreGraphics.framework */; };
 		4AF32A3B185FC57600DCDAAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF32A3A185FC57600DCDAAA /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AD14F901864D9C3001F8A13 /* TutorialInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TutorialInfo; sourceTree = "<group>"; };
 		4AF32A33185FC57600DCDAAA /* TUTAutolayout1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUTAutolayout1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF32A36185FC57600DCDAAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AF32A38185FC57600DCDAAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +88,7 @@
 		4AF32A2A185FC57600DCDAAA = {
 			isa = PBXGroup;
 			children = (
+				4AD14F901864D9C3001F8A13 /* TutorialInfo */,
 				4AF32A3C185FC57600DCDAAA /* TUTAutolayout1 */,
 				4AF32A5B185FC57600DCDAAA /* TUTAutolayout1Tests */,
 				4AF32A35185FC57600DCDAAA /* Frameworks */,
@@ -247,6 +250,7 @@
 				4AF32A4F185FC57600DCDAAA /* Images.xcassets in Resources */,
 				4AF32A41185FC57600DCDAAA /* InfoPlist.strings in Resources */,
 				4AF32A4A185FC57600DCDAAA /* Main.storyboard in Resources */,
+				4AD14F911864D9C3001F8A13 /* TutorialInfo in Resources */,
 				4AF32A6E185FD03F00DCDAAA /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
